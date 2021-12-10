@@ -1,0 +1,82 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Courier, monospace;
+    background-color: rgb(0, 0, 0);
+}
+.Nigga{
+    background-color: black;
+}
+
+header{
+    color:rgb(255, 255, 255);
+    text-align: center;
+
+}
+div{
+    text-align: center;
+    padding: 5px;
+}
+#res{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+    max-width: 600px;
+    max-height: auto;
+}
+footer{
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 370px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgb(255, 217, 0);
+}
+.pinto{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+    font-size: xx-large;
+    color: rgb(255, 153, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.mainmenubtn {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.767);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding:15px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: rgb(100, 100, 100);
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(255, 196, 0);
+    border-radius: 10px;
+    padding:15px;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: rgba(255, 255, 255, 0.767);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
